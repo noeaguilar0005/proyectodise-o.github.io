@@ -1,0 +1,171 @@
+:root{
+	--f7-theme-color:#194b08;
+	--f7-navbar-bg-color:  #194b08; /*navbar*/
+	--f7-navbar-link-color: #fff; /*navbar link*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+/* Parte Hero */
+.img-fluid{
+	max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 5px 0;
+}
+#hero-home{
+	background-color: #2bab00;
+	color: #fff;
+	padding: 30px 0px;
+}
+.button{
+	border-radius: 30px;
+}
+/* Fin Parte Hero */
+/* Parte Content */
+.content{
+	padding: 30px 0px;
+
+}
+.titulo1{
+	color: #2bab00;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 600;
+}
+.titulo2{
+	color: #ffffff;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 600;
+}
+.titlecard{
+	font-family: "Work Sans", sans-serif;
+}
+.ver{
+	color: #2bab00;
+}
+.row-title .block-title{
+	margin-top: 0;
+}
+.videos{
+	text-align: center;
+}
+.card-content{
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	border-radius: 20px;
+	background-color: #2bab00;
+	color: #fff;
+}
+.plan{
+	text-align: center;
+	background-color: #333;
+	border-radius: 30px;
+	padding: 10px;
+	font-family: "Work Sans", sans-serif;
+}
+.textplan{
+	color: #fff;
+}
+.button2{
+	background-color: #2bab00;
+}
+.button3{
+	background-color: #194b08;
+	font-size: small;
+}
+.info{
+	text-align: center;
+	padding: 30px 0px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.info2{
+	text-align: center;
+	padding: 30px 0px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	color: #fff;
+	background-color: #2bab00;
+}
+/* Fin Parte Content */
+.toolbar-nav{
+	color: var(--f7-navbar-bg-color);
+}
+/* Parte Panel */
+#panel-user{
+	background-color: #2bab00;
+	padding: 10px 0px;
+}
+.titlepanel{
+	font-size: 20px;
+	color: #fff;
+}
+.texpanel{
+	font-size: smaller;
+	color: #fff;
+}
+#panel-menu span{
+	color: #2bab00;
+}
+/* Fin Parte Panel */
+/* Parte Tienda */
+.block-productos{
+	padding: 5px;
+	text-align: left;
+	border-radius: 30px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.titulotienda{
+	color: #2bab00;
+	font-family: "Work Sans", sans-serif;
+}
+.parrafotienda{
+	color: #2bab00;	
+}
+/* Fin parte tienda */
+/* Parte Libros */
+.secciones{
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.textlibro{
+	color: #2bab00;
+}
+/* Fin parte Libros */
+/* Parte Pagos */
+.infobank{
+	text-align: left;
+	padding: 30px 0px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.logo-bank{
+	width: 50px;
+	height: auto;
+	margin-left: 10px;
+}
+.infobank2{
+	text-align: left;
+	padding: 30px 0px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	color: #fff;
+	background-color: #194b08;
+}
+
+
+
+
+
+
+
+
+
+
+
+

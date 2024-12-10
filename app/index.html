@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EatFit App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shojumaru&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shojumaru&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/679fd7f7da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+	<div id="app">
+		<section class="panel panel-left panel-cover">
+			<section id="panel-user">	
+				<div class="block no-margin-top">	
+					<div class="row">	
+						<article class="col-30">	
+							<img src="img/user1.png" alt="" class="img-fluid">
+						</article>
+						<article class="col-70">	
+							<h5 class="titlepanel">Noé Aguilar</h5>
+							<p class="texpanel">noeaguilarpuerto@gmail.com</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="panel-menu">	
+				<div class="block">	
+					<div class="list media-list">
+						<ul>
+						  <li>
+							<a href="/home/" class="item-link item-content">
+							  <div class="item-media">
+								<span class="material-symbols-outlined">home</span>
+							  </div>
+							  <div class="item-inner">
+								<div class="item-title">Inicio</div>
+							  </div>
+							</a>
+						  </li>
+						  <li>
+							<a href="/productos/" class="item-link item-content">
+							  <div class="item-media">
+								<span class="material-symbols-outlined">Storefront</span>
+							  </div>
+							  <div class="item-inner">
+								<div class="item-title">Tienda</div>
+							  </div>
+							</a>
+						  </li>
+						  <li>
+							<a href="/libros/" class="item-link item-content">
+							  <div class="item-media">
+								<span class="material-symbols-outlined">import_contacts</span>
+							  </div>
+							  <div class="item-inner">
+								<div class="item-title">Libros</div>
+							  </div>
+							</a>
+							<a href="/tutoriales/" class="item-link item-content">
+								<div class="item-media">
+								  <span class="material-symbols-outlined">visibility</span>
+								</div>
+								<div class="item-inner">
+								  <div class="item-title">Tutoriales</div>
+								</div>
+							  </a>
+							  <a href="/pago/" class="item-link item-content">
+								<div class="item-media">
+								  <span class="material-symbols-outlined">payments</span>
+								</div>
+								<div class="item-inner">
+								  <div class="item-title">Pagos</div>
+								</div>
+							  </a>
+						  </li>
+						</ul>
+					  </div>
+				</div>
+			</section>	
+		</section>
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="title text-align-center">EatFit
+					</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left">
+							<span class="material-symbols-outlined">menu</span>
+						</a>
+					</div>
+				</div>
+			  </nav>
+				<section class="page-content">
+					<div id="hero-home">	
+						<div class="block no-margin-top">	
+							<div class="row">	
+								<article class="col-40">	
+									<h2>Ahorra 25%</h2>
+									<p>En EATFIT te ahorras el 25% de las suscripciones, aprovecha el cupón</p>
+									<a href="/productos/" class="button button-fill">IR A TIENDA</a>
+								</article>
+								<article class="col-60">	
+									<img src="img/hero1.png" alt="" class="img-fluid">
+								</article>
+							</div>
+						</div>
+					</div> <!--/Parte del Hero -->
+					<section class="content" id="content">	
+						<div class="row row-title">	
+							<article class="col-70">	
+								<h2 class="block-title block-title-medium titulo1">Mejores Platos</h2>
+							</article>
+							<article class="col-30">	
+								<a href="#" class="ver">Ver más</a>
+							</article>
+						</div>
+						<div class="block">	
+							<div class="row videos">	
+								<article class="col">	
+									<div class="card-content">
+										<h4 class="titlecard">Alimentación Desayuno</h4>
+										<img src="img/al1.png" alt="" class="img-fluid">
+										<a href="/productos/"><button class="col button button-fill button-round button3">Visualizar</button></a>
+									</div>
+								</article>
+								<article class="col">	
+									<div class="card-content">
+										<h4 class="titlecard">Alimentación Almuerzo</h4>
+										<img src="img/al2.png" alt="" class="img-fluid">
+										<a href="/productos/"><button class="col button button-fill button-round button3">Visualizar</button></a>
+									</div>
+								</article>
+								<article class="col">	
+									<div class="card-content">
+										<h4 class="titlecard">Alimentación <br> Cena</h4>
+										<img src="img/al3.png" alt="" class="img-fluid">
+										<a href="/productos/"><button class="col button button-fill button-round button3">Visualizar</button></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="block plan" id="plan">	
+							<article class="col-100">	
+								<h2 class="titulo1">¡Encuentra tu plan!</h2>
+								<p class="textplan">Busca el mejor plan alimenticio para ti, es hora de mantener una vida saludable y digna</p>
+								<a href="/libros/"><button class="col button button-fill button-round button2">VER LIBROS</button></a>
+							</article>
+						</div>
+						<div class="block information" id="information">	
+							<div class="row">	
+								<article class="col-50">	
+									<div class="info">	
+										<i class="fa-solid fa-phone fa-xl" style="color:  #2bab00"></i>
+										<h2 class="titulo1">¿Necesitas más información?</h2>
+										<p>Puedes llamarnos a los números: 2290-0000</p>
+									</div>
+								</article>
+								<article class="col-50">	
+									<div class="info2">
+										<i class="fa-solid fa-calendar-days fa-xl" style="color: #ffffff;"></i>	
+										<h2 class="titulo2">Puedes agendar un calendario</h2>
+										<p>El día que desees, agenda un calendario</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</section>
+				</section>
+
+			</section> <!--/page -->
+			
+			
+			<div class="toolbar toolbar-bottom tabbar-labels toolbar-nav">
+				<div class="toolbar-inner">
+				  <a href="/home/" class="link">
+					<span class="material-symbols-outlined">home</span>
+					Inicio
+				  </a>
+				  <a href="/productos/" class="link">
+					<span class="material-symbols-outlined">Storefront</span>
+				  </a>
+				  <a href="/libros/" class="link">
+					<span class="material-symbols-outlined">import_contacts</span>
+				  </a>
+				  <a href="/tutoriales/" class="link">
+					<span class="material-symbols-outlined">visibility</span>
+				  </a>
+				   <a href="/pago/" class="link">
+					<span class="material-symbols-outlined">payments</span>
+				  </a>
+				  
+				</div>
+			</div>
+			
+		</div><!--/view -->
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+</body>
+</html>
